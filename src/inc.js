@@ -1,5 +1,7 @@
+import add from './add';
+
 function inc(number) {
-  return number + 1
+  return add(number, 1);
 }
 
-export default inc
+export default inc;

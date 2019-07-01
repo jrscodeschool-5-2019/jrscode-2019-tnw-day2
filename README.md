@@ -142,7 +142,7 @@ Solve each problem and then move to the next numbered file.
 > object to get a value, if no value is provided return null.
 > Why? When accessing deep values of objects, if a property does not exist an exception will be thrown, by using an array to specify the chained values, you can get the value or a null, and no exception will be thrown if the property did not exist.
 
-- [ ] inc
+- [x] inc
 
 > `(Number) => Number + 1`
 > This function takes a number and increments the number by 1, use the add function to create this function.
