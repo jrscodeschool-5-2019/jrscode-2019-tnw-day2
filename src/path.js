@@ -11,12 +11,13 @@
 
 function path(arr, obj) {
   arr.map(item => {
-    if (obj[item]) {
-      return obj[item];
-    } else {
-      return null;
-    }
-  });
+    return obj[item]
+    // if (obj[item]) {
+    //   return obj[item];
+    // } else {
+    //   return null;
+    // }
+  })
 }
 
-export default path;
+export default path
