@@ -123,13 +123,13 @@ Solve each problem and then move to the next numbered file.
 > Create a binary function that multiplies two number arguments and return the result as a number
 > Why? Having a way to multiply two numbers, gives you the ability to compose computation.
 
-- [X] divide
+- [x] divide
 
 > `(Number a, Number b) => a / b`
 > Create a binary function that divides two number arguments and returns the result as a number
 > Why? Having a way to divide two numbers, gives you the ability to compose computation.
 
-- [ ] prop
+- [x] prop
 
 > `(string, object) => object[string]`
 > Create a binary function that takes a string as the first parameter and an object as the second parameter, then return the value of the property that has a name of the first argument from the second argument object, return null if there is no property of that name on the object.
