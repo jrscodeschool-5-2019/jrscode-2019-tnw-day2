@@ -147,7 +147,7 @@ Solve each problem and then move to the next numbered file.
 > `(Number) => Number + 1`
 > This function takes a number and increments the number by 1, use the add function to create this function.
 
-- [ ] dec
+- [x] dec
 
 > `(Number) => Number - 1`
 > This function takes a number and decrements the number by 1, use the subtract function to create this function.
