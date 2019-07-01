@@ -35,13 +35,13 @@ Steps
 - add the test boilier plate to the `test/equals.js` file.
 
 ```js
-import test from 'tape';
-import equals from '../src/equals';
+import test from 'tape'
+import equals from '../src/equals'
 
 test('equals should compare two values and return true or false', assert => {
   // Add Tests here
-  assert.end();
-});
+  assert.end()
+})
 ```
 
 ### Defining Assertions
@@ -51,9 +51,9 @@ When writing test you are making assertions, I assert that when I execute the eq
 So once we have our assertions defined, we need to write the code.
 
 ```js
-assert.ok(equals(1, 1));
-assert.notOk(equals(true, false));
-assert.ok(equals('hello', 'hello'));
+assert.ok(equals(1, 1))
+assert.notOk(equals(true, false))
+assert.ok(equals('hello', 'hello'))
 ```
 
 > There are three main assertion methods, ok, equals, same
@@ -77,10 +77,10 @@ assert.ok(equals('hello', 'hello'));
  * @returns boolean
  */
 function equals(a, b) {
-  return a === b;
+  return a === b
 }
 
-export default equals;
+export default equals
 ```
 
 > Remember to write documentation about what the function does
@@ -111,7 +111,7 @@ Solve each problem and then move to the next numbered file.
 > Create a binary function that adds two numbers and returns the result as a number
 > Why? Having a way to add two numbers, gives you the ability to compose computation.
 
-- [ ] subtract
+- [x] subtract
 
 > `(Number a, Number b) => a - b`
 > Create a binary function that subtracts two number arguments and returns the result as a number
